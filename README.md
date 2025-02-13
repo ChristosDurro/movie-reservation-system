@@ -13,14 +13,15 @@ movie-reservation-system-{service-name}
 ```
 
 ### Services
-- **API Gateway** - Central entry point for all requests.
-- **User Service** - Manages authentication and profile details.
-- **Movie Service** - Stores and provides movie-related information.
-- **Schedule Service** - Manages movie schedules and showtimes.
-- **Seat Service** - Tracks seat availability and booking status.
-- **Ticket Service** - Handles ticket creation, deletion, reservation, payment processing and acknowledgement of successful payment through Stripe.
-- **Reservation Service** - Handles ticket reservations and booking confirmation.
-- **Eureka Server** - Service registration and discovery.
+- [**API Gateway**](https://github.com/ChristosDurro/movie-reservation-system-api-gateway) - Central entry point for all requests.
+- [**User Service**](https://github.com/ChristosDurro/movie-reservation-system-user-service) - Manages authentication and profile details.
+- [**Movie Service**](https://github.com/ChristosDurro/movie-reservation-system-movie-service) - Stores and provides movie-related information.
+- [**Schedule Service**](https://github.com/ChristosDurro/movie-reservation-system-schedule-service) - Manages movie schedules and showtimes.
+- [**Seat Service**](https://github.com/ChristosDurro/movie-reservation-system-seat-service) - Tracks seat availability and booking status.
+- [**Ticket Service**](https://github.com/ChristosDurro/movie-reservation-system-ticket-service) - Handles ticket creation, deletion, reservation, payment processing and acknowledgement of successful payment through Stripe.
+- [**Reservation Service**](https://github.com/ChristosDurro/movie-reservation-system-reservation-service) - Handles ticket reservations and booking confirmation.
+- [**Eureka Server**](https://github.com/ChristosDurro/movie-reservation-system-eureka-server) - Service registration and discovery.
+- [**Frontend**](https://github.com/ChristosDurro/movie-reservation-system-frontend) - Frontend of the project.
 
 ## 🛠️ Technologies Used
 ### Backend:
